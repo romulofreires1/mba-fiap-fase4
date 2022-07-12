@@ -1,0 +1,54 @@
+kind: Project
+apiVersion: project.openshift.io/v1
+metadata:
+  name: trabalhofinalfase4-rm343175
+  selfLink: /apis/project.openshift.io/v1/projects/trabalhofinalfase4-rm343175
+  uid: a5b00b99-dd8a-452d-a5f6-04a25c1ef9c6
+  resourceVersion: '95265838'
+  creationTimestamp: '2022-07-11T23:18:54Z'
+  annotations:
+    openshift.io/description: ''
+    openshift.io/display-name: ''
+    openshift.io/requester: rxgoxs
+    openshift.io/sa.scc.mcs: 's0:c43,c17'
+    openshift.io/sa.scc.supplemental-groups: 1001840000/10000
+    openshift.io/sa.scc.uid-range: 1001840000/10000
+  managedFields:
+    - manager: cluster-policy-controller
+      operation: Update
+      apiVersion: v1
+      time: '2022-07-11T23:18:54Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:metadata':
+          'f:annotations':
+            'f:openshift.io/sa.scc.mcs': {}
+            'f:openshift.io/sa.scc.supplemental-groups': {}
+            'f:openshift.io/sa.scc.uid-range': {}
+    - manager: openshift-apiserver
+      operation: Update
+      apiVersion: v1
+      time: '2022-07-11T23:18:54Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:metadata':
+          'f:annotations':
+            .: {}
+            'f:openshift.io/description': {}
+            'f:openshift.io/display-name': {}
+            'f:openshift.io/requester': {}
+        'f:status':
+          'f:phase': {}
+    - manager: openshift-controller-manager
+      operation: Update
+      apiVersion: v1
+      time: '2022-07-11T23:18:54Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:spec':
+          'f:finalizers': {}
+spec:
+  finalizers:
+    - kubernetes
+status:
+  phase: Active
